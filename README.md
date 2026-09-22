@@ -50,10 +50,19 @@ Proyecto: `envios-service` (Java 21, Maven, JaCoCo, JUnit 5, SonarQube / SonarCl
 
 ## Capturas del análisis
 *Las capturas de pantalla del dashboard de SonarQube/SonarCloud y del reporte JaCoCo (`index.html`) se encuentran archivadas en la carpeta `/docs`:*
-- `docs/sonar-dashboard-inicial.png`
-- `docs/jacoco-inicial.png`
-- `docs/sonar-dashboard-final.png`
-- `docs/jacoco-final.png`
+
+### 1. SonarCloud Dashboard Inicial (Quality Gate FAILED)
+![Sonar Dashboard Inicial](docs/sonar-dashboard-inicial.png)
+
+### 2. Reporte JaCoCo Inicial (Parte 1 - Cobertura ~18%)
+![JaCoCo Inicial](docs/jacoco-inicial.png)
+
+### 3. SonarCloud Dashboard Final (Quality Gate PASSED)
+![Sonar Dashboard Final](docs/sonar-dashboard-final.png)
+
+### 4. Reporte JaCoCo Final (Parte 2 - Cobertura 100%)
+![JaCoCo Final](docs/jacoco-final.png)
+
 
 ## Cómo ejecutar localmente
 ```bash
